@@ -2,9 +2,15 @@
 Automation
 
 **Selenium understanding**:
-- We will work with Selenium RC which requires following told to be instaled:
-1. IDE (JAVA EE) to write code in java (ECLIPSE), Download indigo package
-2. Download it and extract the zip folder, you can find eclipse folder after extracting zip, now inside eclipse folder you will find eclipse.exe, just run it and it will open eclipse JAVA EE IDE fro you.
-3. Prerequisites is JAVA shd be installe din your system.SO download JDK(JAVA JDK) JAVA DEVELOPMENT KIT
-4. Download selenium (Choose language client as JAVA), It will contain jar files and libs folder which again contins selenium referenced jars.
-5. Go to your JAVA IDE on project and right click -> properties . --> java build path --> libraries-->add external jars-->  add all selenium jars including jars inside libs folder as well--> it will ad a new folder to project folders as referencelibrariries 
+- Install JAVA (http://www.oracle.com/technetwork/java/javase/downloads/index.html) for the OS you are using
+- Download Eclipse (http://www.eclipse.org/downloads/) , download packagesand select Eclipse IDE for Java EE Developers.
+  http://www.eclipse.org/downloads/eclipse-packages/
+- Download selenium - from (https://www.seleniumhq.org/download/) and choose for JAVA from **Selenium Client & WebDriver Language Bindings**
+
+Once everything is downoaded please create your first sample application to work with selenium:
+- Open slenium
+- Create new project
+- Add build path -> app folder-> add external libraties- > select all selelnium jars
+- Create a class under app folder.
+- Add WebDriver river;
+- sleect import
